@@ -1,6 +1,6 @@
 # https://github.com/docker-library/golang
 
-## Maintained by: [the Docker Community](https://github.com/docker-library/golang)
+## Maintained by: [YasirBinMudassir Community](https://github.com/docker-library/golang)
 
 This is the Git repo of the [Docker "Official Image"](https://github.com/docker-library/official-images#what-are-official-images) for [`golang`](https://hub.docker.com/_/golang/) (not to be confused with any official `golang` image provided by `golang` upstream). See [the Docker Hub page](https://hub.docker.com/_/golang/) for the full readme on how to use this Docker image and for information regarding contributing and issues.
 
