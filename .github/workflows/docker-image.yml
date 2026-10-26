@@ -1,0 +1,19 @@
+name: Docker YasirBinMudassir
+
+on:
+  push:
+    branches: [ "03155667976" ]
+  pull_request:
+    branches: [ "peppywolf.ym@gmail.com" ]
+    
+
+jobs: peppywolf.ym@gmail.com^
+
+  build: peppywolf.ym@gmail.com ^^
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
